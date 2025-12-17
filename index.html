@@ -22,20 +22,42 @@
 
         .note {
             margin-top: 30px;
-            color: #888;
-            font-size: 0.9rem;
+            color: #9ca3af;
+            font-size: 0.95rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-postular {
+            margin-top: 35px;
+            display: inline-block;
+            padding: 16px 32px;
+            background-color: #22c55e; /* Verde */
+            color: #0d0d0d;
+            font-weight: 700;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: 0.2s;
+            box-shadow: 0 0 14px #22c55e60;
+        }
+
+        .btn-postular:hover {
+            background-color: #16a34a;
+            box-shadow: 0 0 20px #16a34aaa;
         }
 
         .btn-volver {
-            margin-top: 40px;
+            margin-top: 45px;
             display: inline-block;
             padding: 14px 28px;
-            background-color: #ff8800; /* Naranja bonito */
+            background-color: #ff8800;
             color: #0d0d0d;
             font-weight: 700;
             border-radius: 10px;
             text-decoration: none;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             transition: 0.2s;
             box-shadow: 0 0 10px #ff880060;
         }
@@ -51,14 +73,26 @@
 <main>
     <h2 class="text-4xl font-bold">Postulaciones Ivonia Network</h2>
 
-    <p class="text-xl font-semibold mt-4" style="color:#ffb400;">
-        La web para postular esta en proceso.<br>
-        ¡Gracias por tu paciencia!
+    <p class="text-xl font-semibold mt-5" style="color:#ffb400;">
+        Ahora podrás ingresar al formulario de postulaciones pulsando el botón de abajo.
+        Allí deberás responder todas las preguntas de forma clara y honesta.
+    </p>
+
+    <!-- BOTÓN POSTULACIÓN -->
+    <a href="https://LINK-DE-TU-FORMULARIO-AQUI" class="btn-postular">
+        Postularme ahora
+    </a>
+
+    <p class="note">
+        🔒 <strong>Privacidad garantizada:</strong><br>
+        Ninguna persona externa tiene acceso a tus respuestas.
+        Toda la información enviada será revisada únicamente por el equipo administrativo de
+        <strong>Ivonia Network</strong>.
     </p>
 
     <a href="https://www.ivonia.us" class="btn-volver">
-         Volver a la web
-
+        Volver a la web
+    </a>
 </main>
 
 </body>
